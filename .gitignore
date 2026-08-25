@@ -1,0 +1,5 @@
+# Projects showcased in the portfolio live in their own repositories
+projects/
+
+.DS_Store
+*.log
