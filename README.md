@@ -52,11 +52,10 @@ Pour chacun des 4 blocs `.project-card` :
 
 **Carte 01 déjà remplie** avec le projet [TaskFlow](projects/taskflow/README.md) (Kanban
 full-stack React/Node.js/PostgreSQL/Docker, construit pour coller aux critères de l'annonce
-Développeur Web). Ses deux liens ("Voir le projet" / "Code source") pointent encore vers `#` —
-à mettre à jour une fois que :
-- [ ] le dépôt Git est initialisé et poussé sur GitHub → lien "Code source"
-- [ ] une démo est déployée (ex: Render/Railway pour l'API+PostgreSQL, Vercel/Netlify pour
-      le frontend) → lien "Voir le projet"
+Développeur Web).
+- [x] Lien "Code source" → https://github.com/valofils/taskflow
+- [ ] Lien "Voir le projet" (démo live) — encore un `#`, à mettre à jour une fois une démo
+      déployée (ex: Render/Railway pour l'API+PostgreSQL, Vercel/Netlify pour le frontend)
 
 ## Galerie (section `#gallery`)
 Pour chaque `.gallery-item` :
