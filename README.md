@@ -17,12 +17,12 @@ vrais témoignages de collègues, un vrai article de blog, etc.).
       Graph + Twitter dans le `<head>`) une fois le site déployé
 - [ ] **Image Open Graph** : créer `assets/og-image.png` (1200×630px) pour un bel
       aperçu quand le lien est partagé sur LinkedIn/Slack/X
-- [ ] **Vraies captures d'écran de TaskFlow** (section Galerie, `#gallery`) — l'app a
-      été testée de bout en bout localement (voir [projects/taskflow/README.md](projects/taskflow/README.md))
-      mais aucune capture n'a encore été enregistrée comme fichier image
-- [ ] **Lien "Voir le projet" de TaskFlow** (`#projects`) — pointe encore vers `#`,
-      à mettre à jour une fois une démo déployée (Render/Railway + Vercel/Netlify,
-      voir la roadmap dans le README de TaskFlow)
+- [ ] **Vraies captures d'écran de TaskFlow** (section Galerie, `#gallery`) — l'app
+      est déployée et testée de bout en bout (voir ci-dessous) mais aucune capture
+      n'a encore été enregistrée comme fichier image
+- [x] **Lien "Voir le projet" de TaskFlow** (`#projects`) → https://client-pi-eight-60.vercel.app
+      (démo en ligne, testée de bout en bout : inscription, JWT, création de tâche,
+      persistance en base Neon)
 - [ ] **CV téléchargeable** : le bouton a été retiré du hero — si tu veux en proposer
       un, prépare une version PDF adaptée à une candidature développeur (le
       `Detailed resume.docx` fourni est un CV de consultante statisticienne, pas
