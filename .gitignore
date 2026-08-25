@@ -1,5 +1,9 @@
 # Projects showcased in the portfolio live in their own repositories
 projects/
 
+# Source documents with personal/contact details — never publish these as-is
+*.docx
+*.doc
+
 .DS_Store
 *.log

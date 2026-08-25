@@ -26,7 +26,7 @@ window.addEventListener("pointermove", (e) => {
 
 // Reveal on scroll
 const revealTargets = document.querySelectorAll(
-  ".section, .skill-card, .project-card, .timeline li, .cert-card, .testimonial-card, .blog-card, .faq-item, .cta-final, .language-card, .gallery-item, .video-wrapper, .softskill-card, .pricing-card, .stats-band, .newsletter-band, .availability-card, .video-testimonial-card, .quote-band, .roadmap-item"
+  ".section, .skill-card, .project-card, .timeline li, .cert-card, .faq-item, .cta-final, .language-card, .gallery-item, .video-wrapper, .softskill-card, .stats-band, .availability-card, .quote-band, .roadmap-item"
 );
 revealTargets.forEach((el) => el.classList.add("reveal"));
 
@@ -59,15 +59,4 @@ form.addEventListener("submit", (e) => {
   const name = data.get("name");
   formNote.textContent = `Merci ${name} ! Ce formulaire est un exemple statique — connecte-le à un service (Formspree, EmailJS...) ou à ton backend pour recevoir les messages.`;
   form.reset();
-});
-
-// Newsletter form (front-end only placeholder)
-const newsletterForm = document.getElementById("newsletterForm");
-const newsletterNote = document.getElementById("newsletterNote");
-
-newsletterForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const email = new FormData(newsletterForm).get("email");
-  newsletterNote.textContent = `Merci, ${email} sera ajouté à la liste ! Connecte ce formulaire à Mailchimp, Buttondown ou un autre service pour qu'il fonctionne réellement.`;
-  newsletterForm.reset();
 });
