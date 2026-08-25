@@ -17,9 +17,10 @@ vrais témoignages de collègues, un vrai article de blog, etc.).
       Graph + Twitter dans le `<head>`) une fois le site déployé
 - [ ] **Image Open Graph** : créer `assets/og-image.png` (1200×630px) pour un bel
       aperçu quand le lien est partagé sur LinkedIn/Slack/X
-- [ ] **Vraies captures d'écran de TaskFlow** (section Galerie, `#gallery`) — l'app
-      est déployée et testée de bout en bout (voir ci-dessous) mais aucune capture
-      n'a encore été enregistrée comme fichier image
+- [x] **Vraies captures d'écran de TaskFlow** (section Galerie, `#gallery`) —
+      `assets/screenshots/taskflow-{login,board,task-modal}.jpg`, prises directement
+      sur la démo déployée (Chrome headless piloté par script), chacune cliquable
+      vers la démo en ligne
 - [x] **Lien "Voir le projet" de TaskFlow** (`#projects`) → https://client-pi-eight-60.vercel.app
       (démo en ligne, testée de bout en bout : inscription, JWT, création de tâche,
       persistance en base Neon)
