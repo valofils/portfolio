@@ -15,8 +15,10 @@ vrais témoignages de collègues, un vrai article de blog, etc.).
 
 - [ ] **Domaine réel** : remplacer `https://votre-domaine.com/` (canonical + Open
       Graph + Twitter dans le `<head>`) une fois le site déployé
-- [ ] **Image Open Graph** : créer `assets/og-image.png` (1200×630px) pour un bel
-      aperçu quand le lien est partagé sur LinkedIn/Slack/X
+- [x] **Image Open Graph** : `assets/og-image.png` (1200×630px), même identité
+      visuelle que le site (nom, rôle, photo, stack technique), générée via une
+      page HTML capturée par Chrome headless — déjà référencée dans le `<head>`,
+      s'affichera automatiquement une fois le domaine réel renseigné (point suivant)
 - [x] **Vraies captures d'écran de TaskFlow** (section Galerie, `#gallery`) —
       `assets/screenshots/taskflow-{login,board,task-modal}.jpg`, prises directement
       sur la démo déployée (Chrome headless piloté par script), chacune cliquable
